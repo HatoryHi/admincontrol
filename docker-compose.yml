@@ -1,0 +1,39 @@
+version: "3.3"
+
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: docker/Nginx.DockerFile
+    ports:
+      - 8098:80
+    links:
+      - fpm
+    volumes:
+      - ./:/var/www/laravel-docker
+  fpm:
+    build:
+      context: .
+      dockerfile: docker/Fpm.DockerFile
+    volumes:
+      - ./:/var/www/laravel-docker
+    links:
+      - mysql
+  mysql:
+    image: mysql:5.7
+    ports:
+      - 33061:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=laravel
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    links:
+      - mysql:mysql
+    ports:
+      - 8080:80
+    environment:
+      MYSQL_USERNAME: root
+      MYSQL_ROOT_PASSWORD: root
+      PMA_HOST: mysql
+
