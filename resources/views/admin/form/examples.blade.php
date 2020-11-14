@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('admin.layout.master')
 @section('title', 'Examples')
 @section('parentPageTitle', 'Form')
 @section('content')
@@ -30,11 +30,11 @@
             <div class="body">
                 <form>
                     <label for="email_address">Email Address</label>
-                    <div class="form-group">                                
+                    <div class="form-group">
                         <input type="text" id="email_address" class="form-control" placeholder="Enter your email address">
                     </div>
                     <label for="password">Password</label>
-                    <div class="form-group">                                
+                    <div class="form-group">
                         <input type="password" id="password" class="form-control" placeholder="Enter your password">
                     </div>
                     <div class="checkbox">
@@ -149,7 +149,7 @@
                                         Remember Me
                                 </label>
                             </div>
-                            <button type="button" class="btn btn-raised btn-primary btn-round waves-effect m-l-20">LOGIN</button>          
+                            <button type="button" class="btn btn-raised btn-primary btn-round waves-effect m-l-20">LOGIN</button>
                         </div>
                     </div>
                 </form>

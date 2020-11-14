@@ -20,8 +20,9 @@
                             <th data-breakpoints="xs">Группа</th>
                             <th data-breakpoints="xs">Подгруппа</th>
                             <th data-breakpoints="xs">Курс</th>
-                            <th data-breakpoints="xs sm md">Email</th>
+{{--                            <th data-breakpoints="xs sm md">Email</th>--}}
                             <th data-breakpoints="xs sm md">Назначение справки</th>
+                            <th data-breakpoints="xs sm md">Статус</th>
                             <th data-breakpoints="xs">Action</th>
                         </tr>
                         </thead>
@@ -40,7 +41,7 @@
                                     <span class="sur_name"> {{$item->st_surname}}</span>
                                 </td>
                                 <td>
-                                    <span class="phone"><i class="zmdi zmdi-whatsapp mr-2"></i> {{$item->student_phone_number}}</span>
+                                    <span class="phone"><i class="zmdi zmdi-whatsapp mr-2"></i> {{$item->st_phone}}</span>
                                 </td>
                                 <td>
                                     <span class="group"> {{$item->sub_group}}</span>
@@ -51,12 +52,19 @@
                                 <td>
                                     <span class="group"> {{$item->st_course}}</span>
                                 </td>
-                                <td>
-                                    <span class="email"><a href="javascript:void(0);"
-                                                           title="">johnsmith@gmail.com</a></span>
-                                </td>
+{{--                                <td>--}}
+{{--                                    <span class="email"><a href="javascript:void(0);"--}}
+{{--                                                           title="">johnsmith@gmail.com</a></span>--}}
+{{--                                </td>--}}
                                 <td>
                                     <p class="c_name">Справка для : {{$item->text_claim}}</p>
+                                </td>
+                                <td>
+                                    <span class="group">
+                                        @if ($item->viewed === 0) Заявка не обработана
+                                        @else Заявка обработана
+                                        @endif
+                                    </span>
                                 </td>
                                 <td>
                                     <button class="btn btn-primary btn-sm"><i class="zmdi zmdi-edit"></i></button>

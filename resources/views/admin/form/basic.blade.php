@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('admin.layout.master')
 @section('title', 'Basic Form Elements')
 @section('parentPageTitle', 'Form')
 @section('page-style')
@@ -20,10 +20,10 @@
                 <h2 class="card-inside-title">Basic Examples</h2>
                 <div class="row clearfix">
                     <div class="col-sm-12">
-                        <div class="form-group">                                    
+                        <div class="form-group">
                             <input type="text" class="form-control" placeholder="Username" />
                         </div>
-                        <div class="form-group">                                   
+                        <div class="form-group">
                             <input type="password" class="form-control" placeholder="Password" />
                         </div>
                     </div>
@@ -31,65 +31,65 @@
                 <h2 class="card-inside-title">Different Widths</h2>
                 <div class="row clearfix">
                     <div class="col-sm-6">
-                        <div class="form-group">                                    
-                            <input type="text" class="form-control" placeholder="col-sm-6" />                                   
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="col-sm-6" />
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <div class="form-group">                                   
-                            <input type="text" class="form-control" placeholder="col-sm-6" />                                    
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="col-sm-6" />
                         </div>
                     </div>
                 </div>
                 <div class="row clearfix">
                     <div class="col-sm-4">
-                        <div class="form-group">                                   
-                            <input type="text" class="form-control" placeholder="col-sm-4" />                                    
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="col-sm-4" />
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <div class="form-group">                                   
-                            <input type="text" class="form-control" placeholder="col-sm-4" />                                   
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="col-sm-4" />
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <div class="form-group">                                   
-                            <input type="text" class="form-control" placeholder="col-sm-4" />                                    
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="col-sm-4" />
                         </div>
                     </div>
                 </div>
                 <div class="row clearfix">
                     <div class="col-lg-3 col-md-6">
-                        <div class="form-group">                                   
-                            <input type="text" class="form-control" placeholder="col-sm-3" />                                   
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="col-sm-3" />
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="form-group">                                   
-                            <input type="text" class="form-control" placeholder="col-sm-3" />                                   
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="col-sm-3" />
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="form-group">                                   
-                            <input type="text" class="form-control" placeholder="col-sm-3" />                                   
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="col-sm-3" />
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="form-group">                                   
-                            <input type="text" class="form-control" placeholder="col-sm-3" />                                   
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="col-sm-3" />
                         </div>
                     </div>
-                </div>                        
+                </div>
                 <h2 class="card-inside-title">Input Status</h2>
                 <div class="row clearfix">
                     <div class="col-sm-6">
-                        <div class="form-group">                                   
-                            <input type="text" class="form-control" value="Focused" placeholder="Statu Focused" />                                    
+                        <div class="form-group">
+                            <input type="text" class="form-control" value="Focused" placeholder="Statu Focused" />
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <div class="form-group">                                    
-                            <input type="text" class="form-control" placeholder="Disabled" disabled />                                   
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Disabled" disabled />
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                             </div>
                         </div>
                     </div>
-                </div>                        
+                </div>
             </div>
         </div>
     </div>

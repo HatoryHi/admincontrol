@@ -7,34 +7,35 @@ use Illuminate\Routing\Controller as BaseController;
 class FormController extends BaseController
 {
     function basic(){
-    	return view('form.basic');
+    	return view('admin.form.basic');
     }
 
     function advanced(){
-    	return view('form.advanced');
+    	return view('admin.form.advanced');
     }
 
     function examples(){
-    	return view('form.examples');
+    	return view('admin.form.examples');
     }
 
     function validation(){
-    	return view('form.validation');
+    	return view('admin.form.validation');
     }
 
     function wizard(){
-    	return view('form.wizard');
+    	return view('admin.form.wizard');
     }
 
     function editors(){
-    	return view('form.editors');
+    	return view('admin.form.editors');
     }
 
     function upload(){
-    	return view('form.upload');
+    	return view('admin.form.upload');
     }
 
     function summernote(){
-    	return view('form.summernote');
+    	return view('admin.form.summernote');
     }
+
 }

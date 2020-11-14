@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('admin.layout.master')
 @section('title', 'Flot')
 @section('parentPageTitle', 'Charts')
 @section('page-style')
@@ -117,8 +117,8 @@
             </div>
         </div>
     </div>
-</div>        
-<div class="row clearfix"> 
+</div>
+<div class="row clearfix">
     <!-- Pie Chart -->
     <div class="col-lg-6 col-md-12">
         <div class="card">
@@ -142,7 +142,7 @@
             </div>
         </div>
     </div>
-    <!-- #END# Pie Chart --> 
+    <!-- #END# Pie Chart -->
     <!-- Bar Chart -->
     <div class="col-lg-6 col-md-12">
         <div class="card">
@@ -166,7 +166,7 @@
             </div>
         </div>
     </div>
-    <!-- #END# Bar Chart --> 
+    <!-- #END# Bar Chart -->
 </div>
 @stop
 @section('page-script')

@@ -8,9 +8,8 @@
         <ul class="list">
             <li>
                 <div class="user-info">
-                    <div class="image"><a href="#"><img src="../assets/images/profile_av.jpg" alt="User"></a></div>
                     <div class="detail">
-                        <h4>Michael</h4>
+                        <h4>Анатолий Матвиенков</h4>
                         <small>Super Admin</small>
                     </div>
                 </div>
@@ -18,19 +17,21 @@
             <li class="{{ Request::segment(1) === 'dashboard' ? 'active open' : null }}"><a href="{{route('dashboard.index')}}"><i class="zmdi zmdi-home"></i><span>Dashboard</span></a></li>
             <li class="{{ Request::segment(1) === 'my-profile' ? 'active open' : null }}"><a href="{{route('profile.my-profile')}}"><i class="zmdi zmdi-account"></i><span>My Profile</span></a></li>
             <li class="{{ Request::segment(1) === 'app' ? 'active open' : null }}">
-                <a href="#App" class="menu-toggle"><i class="zmdi zmdi-apps"></i> <span>App</span></a>
+                <a href="#App" class="menu-toggle"><i class="zmdi zmdi-apps"></i> <span>Общее</span></a>
                 <ul class="ml-menu">
                     <li class="{{ Request::segment(2) === 'inbox' ? 'active' : null }}"><a href="{{route('app.inbox')}}">Inbox</a></li>
                     <li class="{{ Request::segment(2) === 'calendar' ? 'active' : null }}"><a href="{{route('app.calendar')}}">Calendar</a></li>
-                    <li class="{{ Request::segment(2) === 'contact-list' ? 'active' : null }}"><a href="{{route('app.contact-list')}}">Contact list</a></li>
+                    <li class="{{ Request::segment(2) === 'contact-list' ? 'active' : null }}"><a href="{{route('app.contact-list')}}">Контакты студентов</a></li>
                 </ul>
             </li>
             <li class="{{ Request::segment(1) === 'form' ? 'active open' : null }}">
                 <a href="#Form" class="menu-toggle"><i class="zmdi zmdi-assignment"></i><span>Заявки студентов</span></a>
                 <ul class="ml-menu">
                     <li class="{{ Request::segment(2) === 'basic' ? 'active' : null }}"><a href="{{route('claim.claim')}}">Таблица заявок</a></li>
+                    <li class="{{ Request::segment(2) === 'basic' ? 'active' : null }}"><a href="{{route('claim.students_list')}}">Список студентов</a></li>
 
                 </ul>
+
             </li>
             <li class="{{ Request::segment(1) === 'project' ? 'active open' : null }}">
                 <a href="#Project" class="menu-toggle"><i class="zmdi zmdi-assignment"></i> <span>Project</span></a>

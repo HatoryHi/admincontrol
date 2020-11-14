@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('admin.layout.master')
 @section('title', 'Flot')
 @section('parentPageTitle', 'Charts')
 @section('page-style')
@@ -137,7 +137,7 @@
                 <canvas id="pie_chart" class="chartjs_graph"></canvas>
             </div>
         </div>
-    </div> 
+    </div>
     <div class="col-lg-6 col-md-12">
         <div class="card">
             <div class="header">
@@ -159,7 +159,7 @@
                 <canvas id="chart-area" class="chartjs_graph"></canvas>
             </div>
         </div>
-    </div>                       
+    </div>
 </div>
 @stop
 @section('page-script')

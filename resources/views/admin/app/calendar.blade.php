@@ -17,7 +17,7 @@
     <div class="col-md-12 col-lg-4 col-xl-4">
         <div class="card">
             <div class="event_list">
-                <button type="button" class="btn btn-info btn-block waves-effect" data-toggle="modal" data-target="#addevent">Add Events</button>
+                <button type="button" class="btn btn-info btn-block waves-effect" data-toggle="modal" data-target="#addevent">Добавить событие</button>
                 <div class="e_list">
                     <h5 class="e_name">11 September <span class="badge badge-primary float-right">Conference</span></h5>
                     <address><i class="zmdi zmdi-pin"></i> 123 6th St. Melbourne, FL 32904</address>

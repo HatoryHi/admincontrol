@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('admin.layout.master')
 @section('title', 'File Upload')
 @section('parentPageTitle', 'Form')
 @section('page-style')
@@ -31,7 +31,7 @@
                 <p>try to remove the image</p>
                 <input type="file" id="dropify-event" data-default-file="{{asset('assets/images/image-gallery/1.jpg')}}">
             </div>
-        </div>                    
+        </div>
         <div class="card">
             <div class="header">
                 <h2><strong>Disabled</strong> file upload</h2>
@@ -59,7 +59,7 @@
                 <p>try to upload file larger than 100 KB</p>
                 <input type="file" class="dropify" data-max-file-size="100K">
             </div>
-        </div>                    
+        </div>
         <div class="card">
             <div class="header">
                 <h2>Custom <strong>messages</strong> for default</h2>

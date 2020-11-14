@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('admin.layout.master')
 @section('title', 'Datatable')
 @section('parentPageTitle', 'Tables')
 @section('page-style')

@@ -11,7 +11,7 @@ class Student extends Model
 
     public function find_all()
     {
-        return Student::all();
+        return self::all();
     }
 
 }

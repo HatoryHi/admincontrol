@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('admin.layout.master')
 @section('title', 'E Chart')
 @section('parentPageTitle', 'Charts')
 @section('content')
@@ -21,7 +21,7 @@
             <div class="body">
                 <div class="chart" id="echart-rainfall" style="height: 400px;"></div>
             </div>
-        </div>                
+        </div>
     </div>
     <div class="col-lg-6 col-md-12">
         <div class="card">
@@ -31,7 +31,7 @@
             <div class="body">
                 <div class="chart" id="echart-dynamic_data" style="height: 400px;"></div>
             </div>
-        </div>                
+        </div>
     </div>
     <div class="col-lg-6 col-md-12">
         <div class="card">

@@ -8,11 +8,13 @@
 @section('content')
 <div class="row clearfix">
     <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card widget_2 big_icon traffic">
+{{--        <div class="card widget_2 big_icon traffic">--}}
+        <div class="card widget_2">
             <div class="body">
-                <h6>Traffic</h6>
-                <h2>20 <small class="info">of 1Tb</small></h2>
-                <small>2% higher than last month</small>
+                <h6>Количество групп</h6>
+{{--                <h2>12 <small class="info">of 1Tb</small></h2>--}}
+                <h2>12</h2>
+                <small>на 3 группы больше по сравнению с прошлым годом </small>
                 <div class="progress">
                     <div class="progress-bar l-amber" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"></div>
                 </div>

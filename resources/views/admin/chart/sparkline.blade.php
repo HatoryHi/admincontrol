@@ -1,23 +1,23 @@
-@extends('layout.master')
+@extends('admin.layout.master')
 @section('title', 'Sparkline')
 @section('parentPageTitle', 'Charts')
 @section('content')
 <div class="row clearfix">
     <div class="col-lg-6 col-md-12 col-sm-12">
-        <div class="card">                    
+        <div class="card">
             <div class="body">
-                <div id="sparkline14"></div>                            
+                <div id="sparkline14"></div>
             </div>
         </div>
     </div>
     <div class="col-lg-6 col-md-12 col-sm-12">
-        <div class="card">                    
+        <div class="card">
             <div class="body">
                 <div id="sparkline16" class="text-center"></div>
             </div>
         </div>
     </div>
-</div>                        
+</div>
 <div class="row clearfix">
     <div class="col-lg-4 col-md-12 col-sm-12">
         <div class="card ">
@@ -35,7 +35,7 @@
                     </div>
                     <div class="col-6">
                         <h5 class="mb-0">1,100</h5>
-                        <small>This Week <span><i class="zmdi zmdi-caret-down text-danger"></i> 12%</span></small>                                    
+                        <small>This Week <span><i class="zmdi zmdi-caret-down text-danger"></i> 12%</span></small>
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@
     <div class="col-lg-4 col-md-12 col-sm-12">
         <div class="card ">
             <div class="header">
-                <h2><strong>Earnings</strong></h2>                        
+                <h2><strong>Earnings</strong></h2>
             </div>
             <div class="body">
                 <div class="sparkline" data-type="line" data-spot-Radius="2" data-highlight-Spot-Color="#FF9948" data-highlight-Line-Color="#222"
@@ -57,7 +57,7 @@
                     </div>
                     <div class="col-6">
                         <h5 class="mb-0">1,100</h5>
-                        <small>This Week <span><i class="zmdi zmdi-caret-down text-danger"></i> 12%</span></small>                                    
+                        <small>This Week <span><i class="zmdi zmdi-caret-down text-danger"></i> 12%</span></small>
                     </div>
                 </div>
             </div>
@@ -66,9 +66,9 @@
     <div class="col-lg-4 col-md-12 col-sm-12">
         <div class="card ">
             <div class="header">
-                <h2><strong>Traffic</strong></h2>                        
+                <h2><strong>Traffic</strong></h2>
             </div>
-            <div class="body">                            
+            <div class="body">
                 <div class="sparkline" data-type="line" data-spot-Radius="2" data-highlight-Spot-Color="#FF9948" data-highlight-Line-Color="#222"
                 data-min-Spot-Color="#ee2558" data-max-Spot-Color="#04BE5B" data-spot-Color="#46b6fe" data-offset="90" data-width="100%" data-height="50px"
                 data-line-Width="2" data-line-Color="#46b6fe" data-fill-Color="transparent"> 5,4,9,8,3,5,2,9,5,1</div>
@@ -79,12 +79,12 @@
                     </div>
                     <div class="col-6">
                         <h5 class="mb-0">1,100</h5>
-                        <small>This Week <span><i class="zmdi zmdi-caret-down text-danger"></i> 12%</span></small>                                    
+                        <small>This Week <span><i class="zmdi zmdi-caret-down text-danger"></i> 12%</span></small>
                     </div>
                 </div>
             </div>
         </div>
-    </div>           
+    </div>
 </div>
 <div class="row clearfix">
     <div class="col-lg-3 col-md-6 col-sm-12">
@@ -194,7 +194,7 @@
             </div>
         </div>
     </div>
-</div>        
+</div>
 <div class="row clearfix">
     <div class="col-lg-12 col-md-12 col-sm-12">
         <div class="card">

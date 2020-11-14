@@ -1,5 +1,5 @@
 @extends('admin.layout.master')
-@section('title', 'Contact List')
+@section('title', 'Контакты студентов')
 @section('parentPageTitle', 'App')
 @section('page-style')
     <link rel="stylesheet" href="{{asset('assets/plugins/footable-bootstrap/css/footable.bootstrap.min.css')}}"/>

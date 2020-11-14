@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('admin.layout.master')
 @section('title', 'C3 Chart')
 @section('parentPageTitle', 'Charts')
 @section('page-style')
@@ -24,7 +24,7 @@
             <div class="body">
                 <div id="chart-temperature" class="c3_chart"></div>
             </div>
-        </div>                
+        </div>
     </div>
     <div class="col-lg-6 col-md-12">
         <div class="card">
@@ -34,7 +34,7 @@
             <div class="body">
                 <div id="chart-area" class="c3_chart"></div>
             </div>
-        </div>                
+        </div>
     </div>
     <div class="col-lg-6 col-md-12">
         <div class="card">
@@ -54,7 +54,7 @@
             <div class="body">
                 <div id="chart-area-spline-sracked" class="c3_chart"></div>
             </div>
-        </div>                    
+        </div>
     </div>
     <div class="col-lg-6 col-md-12">
         <div class="card">
@@ -64,7 +64,7 @@
             <div class="body">
                 <div id="chart-spline" class="c3_chart"></div>
             </div>
-        </div>                
+        </div>
     </div>
     <div class="col-lg-6 col-md-12">
         <div class="card">
@@ -84,7 +84,7 @@
             <div class="body">
                 <div id="chart-step" class="c3_chart"></div>
             </div>
-        </div>                
+        </div>
     </div>
     <div class="col-lg-6 col-md-12">
         <div class="card">
@@ -94,7 +94,7 @@
             <div class="body">
                 <div id="chart-area-step" class="c3_chart"></div>
             </div>
-        </div>                
+        </div>
     </div>
     <div class="col-lg-6 col-md-12">
         <div class="card">
@@ -104,7 +104,7 @@
             <div class="body">
                 <div id="chart-bar" class="c3_chart"></div>
             </div>
-        </div>                
+        </div>
     </div>
     <div class="col-lg-6 col-md-12">
         <div class="card">
@@ -114,7 +114,7 @@
             <div class="body">
                 <div id="chart-bar-rotated" class="c3_chart"></div>
             </div>
-        </div>                
+        </div>
     </div>
     <div class="col-lg-6 col-md-12">
         <div class="card">
@@ -124,7 +124,7 @@
             <div class="body">
                 <div id="chart-bar-stacked" class="c3_chart"></div>
             </div>
-        </div>                
+        </div>
     </div>
     <div class="col-lg-6 col-md-12">
         <div class="card">
@@ -134,7 +134,7 @@
             <div class="body">
                 <div id="chart-pie" class="c3_chart"></div>
             </div>
-        </div>                
+        </div>
     </div>
     <div class="col-lg-6 col-md-12">
         <div class="card">
@@ -144,7 +144,7 @@
             <div class="body">
                 <div id="chart-donut" class="c3_chart"></div>
             </div>
-        </div>                    
+        </div>
     </div>
     <div class="col-lg-6 col-md-12">
         <div class="card">
@@ -154,7 +154,7 @@
             <div class="body">
                 <div id="chart-scatter" class="c3_chart"></div>
             </div>
-        </div>                
+        </div>
     </div>
     <div class="col-lg-6 col-md-12">
         <div class="card">
@@ -164,7 +164,7 @@
             <div class="body">
                 <div id="chart-combination" class="c3_chart"></div>
             </div>
-        </div>                
+        </div>
     </div>
 </div>
 @stop

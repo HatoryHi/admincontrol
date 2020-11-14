@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('admin.layout.master')
 @section('title', 'Normal Tables')
 @section('parentPageTitle', 'Tables')
 @section('content')

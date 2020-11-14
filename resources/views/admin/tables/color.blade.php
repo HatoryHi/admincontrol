@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('admin.layout.master')
 @section('title', 'Color')
 @section('parentPageTitle', 'Tables')
 @section('content')
@@ -161,7 +161,7 @@
                 </div>
             </div>
         </div>
-    </div>            
+    </div>
 </div>
 
 <div class="row clearfix">

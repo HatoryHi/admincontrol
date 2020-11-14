@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('admin.layout.master')
 @section('title', 'Advanced')
 @section('parentPageTitle', 'Form')
 @section('page-style')
@@ -89,7 +89,7 @@
                         <input type="radio" name="stars" value="3" />
                         <span class="icon"><i class="zmdi zmdi-star"></i></span>
                         <span class="icon"><i class="zmdi zmdi-star"></i></span>
-                        <span class="icon"><i class="zmdi zmdi-star"></i></span>   
+                        <span class="icon"><i class="zmdi zmdi-star"></i></span>
                     </label>
                     <label>
                         <input type="radio" name="stars" value="4" />
@@ -197,7 +197,7 @@
                     <div class="col-lg-3 col-md-6">
                         <p> <b>Loading Data</b> </p>
                         <input type="hidden" id="loading-select" class="form-control"/>
-                        
+
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <p> <b>Loading Array Data</b> </p>
@@ -302,7 +302,7 @@
                             </div>
                             <input type="text" class="form-control money-dollar" placeholder="Ex: 99,99 $">
                         </div>
-                    </div>                               
+                    </div>
                     <div class="col-lg-4 col-md-6">
                         <label>Date</label>
                         <div class="input-group masked-input mb-3">
@@ -434,7 +434,7 @@
 </div>
 <!-- #END# Multi Select -->
 
-<div class="row clearfix"> 
+<div class="row clearfix">
     <!-- Spinners -->
     <div class="col-lg-6 col-md-12 col-sm-12">
         <div class="card">
@@ -514,7 +514,7 @@
             </div>
         </div>
     </div>
-    <!-- #END# Tags Input --> 
+    <!-- #END# Tags Input -->
 </div>
 
 <!-- Advanced Select -->

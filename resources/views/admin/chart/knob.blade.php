@@ -1,10 +1,10 @@
-@extends('layout.master')
+@extends('admin.layout.master')
 @section('title', 'Knob')
 @section('parentPageTitle', 'Charts')
 @section('content')
 <div class="row clearfix">
     <div class="col-lg-3">
-        <div class="card">                   
+        <div class="card">
             <div class="body text-center">
                 <input type="text" class="knob" value="86" data-width="125" data-height="125" data-thickness="0.25" data-fgColor="#ff598f">
                 <p class="text-muted m-b-0">BASIC EXAMPLES</p>
@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="col-lg-3">
-        <div class="card">                   
+        <div class="card">
             <div class="body text-center">
                 <input type="text" class="knob" data-linecap="round" value="56" data-width="125" data-height="125" data-thickness="0.25"data-fgColor="#64c8c0">
                 <p class="text-muted m-b-0">ROUNDED CORNERS</p>
@@ -20,16 +20,16 @@
         </div>
     </div>
     <div class="col-lg-3">
-        <div class="card">                   
-            <div class="body text-center">                            
+        <div class="card">
+            <div class="body text-center">
                 <input type="text" class="knob" value="65" data-width="125" data-height="125" data-thickness="0.25" data-fgColor="#cb8fe7" readonly>
                 <p class="text-muted m-b-0">READ-ONLY</p>
             </div>
         </div>
     </div>
     <div class="col-lg-3">
-        <div class="card">                   
-            <div class="body text-center">                            
+        <div class="card">
+            <div class="body text-center">
                     <input type="text" class="knob" data-skin="tron" value="100" data-width="125" data-height="125" data-thickness="0.2" data-angleArc="270"
                     data-angleoffset="90" data-fgColor="#fc967f">
                 <p class="text-muted m-b-0">TRON STYLE</p>

@@ -54,7 +54,13 @@ Route::get('app/contact-list', 'AppController@contactList')->name('app.contact-l
 Route::get('claims',function (){
     return redirect('clams/claims');
 });
+Route::get('claims',function (){
+    return redirect('clams/students_list');
+});
+
 Route::get('claims/claims', 'StudentController@contactList')->name('claim.claim');
+Route::get('claims/students_list', 'StudentController@studentsList')->name('claim.students_list');
+
 
 /* Project */
 Route::get('project', function () {

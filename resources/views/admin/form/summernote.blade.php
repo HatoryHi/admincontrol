@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('admin.layout.master')
 @section('title', 'Summernote')
 @section('parentPageTitle', 'Form')
 @section('page-style')

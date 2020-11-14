@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('admin.layout.master')
 @section('title', 'Basic Form Elements')
 @section('parentPageTitle', 'Form')
 @section('page-style')
@@ -40,7 +40,7 @@
                         <div class="radio inlineblock m-r-20">
                             <input type="radio" name="gender" id="male" class="with-gap" value="option1">
                             <label for="male">Male</label>
-                        </div>                                
+                        </div>
                         <div class="radio inlineblock">
                             <input type="radio" name="gender" id="Female" class="with-gap" value="option2" checked="">
                             <label for="Female">Female</label>
@@ -87,27 +87,27 @@
             <div class="body">
                 <form id="form_advanced_validation" method="POST">
                     <div class="form-group form-float">
-                        <input type="text" class="form-control" name="minmaxlength" maxlength="10" minlength="3" required>                                
+                        <input type="text" class="form-control" name="minmaxlength" maxlength="10" minlength="3" required>
                         <div class="help-info">Min. 3, Max. 10 characters</div>
                     </div>
                     <div class="form-group form-float">
-                        <input type="text" class="form-control" name="minmaxvalue" min="10" max="200" required>                                
+                        <input type="text" class="form-control" name="minmaxvalue" min="10" max="200" required>
                         <div class="help-info">Min. Value: 10, Max. Value: 200</div>
                     </div>
                     <div class="form-group form-float">
-                        <input type="url" class="form-control" name="url" required>                                
+                        <input type="url" class="form-control" name="url" required>
                         <div class="help-info">Starts with http://, https://, ftp:// etc</div>
                     </div>
                     <div class="form-group form-float">
-                        <input type="text" class="form-control" name="date" required>                                
+                        <input type="text" class="form-control" name="date" required>
                         <div class="help-info">YYYY-MM-DD format</div>
                     </div>
                     <div class="form-group form-float">
-                        <input type="number" class="form-control" name="number" required>                                
+                        <input type="number" class="form-control" name="number" required>
                         <div class="help-info">Numbers only</div>
                     </div>
                     <div class="form-group form-float">
-                        <input type="text" class="form-control" name="creditcard" pattern="[0-9]{13,16}" required>                                
+                        <input type="text" class="form-control" name="creditcard" pattern="[0-9]{13,16}" required>
                         <div class="help-info">Ex: 1234-5678-9012-3456</div>
                     </div>
                     <button class="btn btn-raised btn-primary waves-effect" type="submit">SUBMIT</button>

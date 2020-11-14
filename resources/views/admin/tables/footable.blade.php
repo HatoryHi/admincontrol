@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('admin.layout.master')
 @section('title', 'Footable')
 @section('parentPageTitle', 'Tables')
 @section('page-style')
